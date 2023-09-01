@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
     
 }
@@ -19,3 +19,38 @@ p{
     line-height: normal;
     letter-spacing: -1.2px;
 }
+  a{
+    font-weight: 400;
+    padding: 12px 22px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 8px;
+
+
+  } 
+
+.hero {
+    background-image: url(../css/images/imgfigma\ .jpg);
+    width: 600px;
+    padding-right: 300px ;
+    padding-left: 50px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-color: rgb(238, 238, 238);
+    }
+
+  #lets {
+    width: 50; 
+    height: 84.236; 
+    transform: rotate (-1.981deg); 
+    flex-shrink: 0; 
+    background: #fff
+  }
+
+  #unique {
+    width: 36;
+    height: 20;
+    transform: rotate (-1.981deg);
+    flex-shrink: 0;
+    background: #ffed22
+  }
