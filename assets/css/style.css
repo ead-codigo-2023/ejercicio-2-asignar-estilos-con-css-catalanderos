@@ -29,25 +29,29 @@ p{
 
   } 
 
+ 
+
+
 .hero {
     background-image: url(../css/images/imgfigma\ .jpg);
-    width: 600px;
-    padding-right: 300px ;
+    width: 800px;
+    height: 600px;
+    padding-right: 200px ;
     padding-left: 50px;
     background-position-x: right;
     background-repeat: no-repeat;
     background-color: rgb(238, 238, 238);
     }
 
-  #lets {
+  .hero h1 #lets {
+    font-weight: bolder;
     width: 50; 
     height: 84.236; 
     transform: rotate (-1.981deg); 
-    flex-shrink: 0; 
-    background: #fff
+    background-color: #fff
   }
 
-  #unique {
+  .hero h1 #unique {
     width: 36;
     height: 20;
     transform: rotate (-1.981deg);
